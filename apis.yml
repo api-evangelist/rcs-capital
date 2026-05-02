@@ -1,12 +1,30 @@
 aid: rcs-capital
-url: 
-  https://raw.githubusercontent.com/api-evangelist/rcs-capital/refs/heads/main/apis.yml
-modified: '2026-03-24'
+name: RCS Capital
+description: >-
+  RCS Capital Corporation was a holding company focused on the financial
+  services industry that owned a diversified group of businesses including
+  independent broker-dealers and investment banking. The firm filed for Chapter
+  11 bankruptcy protection in January 2016 and emerged as Aretec Group, Inc.
+  No public APIs are available for the legacy RCS Capital entity.
+type: Index
+position: Consuming
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/rcs-capital/refs/heads/main/apis.yml
+tags:
+  - Broker-Dealer
+  - Defunct
+  - Financial Services
+  - Investment Banking
+created: '2025-01-01'
+modified: '2026-04-28'
+specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
+    name: RCS Capital Website
+    description: Legacy website reference for RCS Capital.
     url: https://www.rcs-capital.com
-description: >-
-  RCS Capital was a holding company focused on the financial services industry that
-  owned a diversified group of businesses including independent broker-dealers and
-  investment banking before declaring bankruptcy.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
