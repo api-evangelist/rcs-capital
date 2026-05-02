@@ -1,0 +1,115 @@
+aid: rcs-capital
+name: RCS Capital Vocabulary
+description: >-
+  Domain vocabulary for independent broker-dealer financial services concepts
+  as represented by RCS Capital Corporation and its successor Cetera Financial Group.
+  Covers FINRA/SEC regulatory terms, financial advisor entities, and investment services.
+created: '2026-05-02'
+modified: '2026-05-02'
+
+terms:
+
+  - term: BrokerDealer
+    label: Broker-Dealer
+    definition: >-
+      A person or firm registered with FINRA and the SEC that buys and sells
+      securities for its own account (dealer) or on behalf of clients (broker).
+      RCS Capital owned fifteen registered broker-dealer subsidiaries through
+      its Cetera Financial Group platform.
+    tags:
+      - FINRA
+      - Securities
+      - Regulation
+
+  - term: IndependentBrokerDealer
+    label: Independent Broker-Dealer
+    definition: >-
+      A broker-dealer firm whose registered representatives operate as
+      independent contractors rather than employees, typically affiliated with
+      a larger network for compliance, technology, and back-office support.
+    tags:
+      - FINRA
+      - Financial Services
+      - Distribution
+
+  - term: CRDNumber
+    label: CRD Number
+    definition: >-
+      Central Registration Depository number — a unique identifier assigned by
+      FINRA to each registered broker-dealer firm and individual registered
+      representative. Used for background checks and regulatory filings.
+    tags:
+      - FINRA
+      - Regulation
+      - Identity
+
+  - term: RegistrationStatus
+    label: Registration Status
+    definition: >-
+      The current regulatory registration status of a broker-dealer or
+      registered representative with FINRA (Active, Inactive, Suspended, or
+      Terminated).
+    tags:
+      - FINRA
+      - Compliance
+
+  - term: AssetsUnderAdministration
+    label: Assets Under Administration
+    definition: >-
+      The total market value of financial assets for which an advisor network
+      provides administrative services (custody, reporting) regardless of
+      whether it also manages those assets on a discretionary basis.
+    tags:
+      - Financial Services
+      - Metrics
+
+  - term: AssetsUnderManagement
+    label: Assets Under Management
+    definition: >-
+      The total market value of financial assets that a registered investment
+      advisor manages on a discretionary basis on behalf of clients.
+    tags:
+      - Financial Services
+      - Metrics
+
+  - term: RegulatoryCapital
+    label: Regulatory Capital
+    definition: >-
+      The minimum net capital a broker-dealer must maintain under SEC Rule 15c3-1
+      to ensure it can meet its financial obligations to clients and counterparties.
+    tags:
+      - SEC
+      - Regulation
+      - Capital
+
+  - term: Chapter11
+    label: Chapter 11 Bankruptcy
+    definition: >-
+      A form of US bankruptcy protection that allows a company to reorganize its
+      business, assets, and debts while continuing to operate. RCS Capital filed
+      Chapter 11 in January 2016 and emerged as Aretec Group in May 2016.
+    tags:
+      - Bankruptcy
+      - Restructuring
+      - Legal
+
+  - term: WealthManagement
+    label: Wealth Management
+    definition: >-
+      A comprehensive financial advisory service combining investment management,
+      financial planning, tax advice, estate planning, and other financial services
+      for high-net-worth individuals and families.
+    tags:
+      - Financial Services
+      - Advisory
+
+  - term: RIA
+    label: Registered Investment Advisor
+    definition: >-
+      An investment advisor registered with the SEC or a state securities
+      regulator that provides investment advice for compensation and has a
+      fiduciary duty to clients.
+    tags:
+      - SEC
+      - Investment Advisory
+      - Fiduciary

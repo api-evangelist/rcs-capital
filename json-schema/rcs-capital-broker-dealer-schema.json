@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/rcs-capital/refs/heads/main/json-schema/rcs-capital-broker-dealer-schema.json",
+  "title": "Broker-Dealer Entity",
+  "description": "Schema describing a registered broker-dealer entity as defined by FINRA and SEC regulations, representing firms like those assembled under RCS Capital / Cetera Financial Group.",
+  "type": "object",
+  "required": ["crdNumber", "legalName"],
+  "properties": {
+    "crdNumber": {
+      "type": "string",
+      "description": "FINRA Central Registration Depository (CRD) number for the firm."
+    },
+    "legalName": {
+      "type": "string",
+      "description": "Legal registered name of the broker-dealer."
+    },
+    "tradingName": {
+      "type": "string",
+      "description": "DBA (doing business as) name, if different from legal name."
+    },
+    "secRegistrationNumber": {
+      "type": "string",
+      "description": "SEC registration number for the broker-dealer."
+    },
+    "registrationStatus": {
+      "type": "string",
+      "enum": ["Active", "Inactive", "Suspended", "Terminated"],
+      "description": "Current FINRA registration status."
+    },
+    "registeredStates": {
+      "type": "array",
+      "description": "US states in which the firm is registered to conduct business.",
+      "items": {
+        "type": "string",
+        "description": "Two-letter US state code."
+      }
+    },
+    "parentCompany": {
+      "type": "string",
+      "description": "Name of the parent holding company."
+    },
+    "advisorCount": {
+      "type": "integer",
+      "description": "Number of registered representatives affiliated with this firm."
+    },
+    "assetsUnderAdministration": {
+      "type": "number",
+      "description": "Total assets under administration in USD."
+    },
+    "businessTypes": {
+      "type": "array",
+      "description": "Types of business conducted.",
+      "items": {
+        "type": "string",
+        "examples": ["Retail Brokerage", "Investment Advisory", "Mutual Funds", "Variable Annuities", "Alternative Investments"]
+      }
+    },
+    "headOffice": {
+      "type": "object",
+      "properties": {
+        "street": { "type": "string" },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "postalCode": { "type": "string" }
+      }
+    }
+  }
+}

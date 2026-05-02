@@ -1,0 +1,24 @@
+{
+  "@context": "https://raw.githubusercontent.com/api-evangelist/rcs-capital/refs/heads/main/json-ld/rcs-capital-context.jsonld",
+  "@type": "FinancialAdvisor",
+  "id": "advisor-1234567",
+  "firstName": "Jane",
+  "lastName": "Smith",
+  "crdNumber": "1234567",
+  "firmCrdNumber": "26461",
+  "firmName": "Cetera Advisors LLC",
+  "licenses": ["Series 7", "Series 63", "Series 65"],
+  "designations": ["CFP", "ChFC"],
+  "officeAddress": {
+    "street": "200 N Pacific Coast Hwy, Suite 1200",
+    "city": "El Segundo",
+    "state": "CA",
+    "postalCode": "90245",
+    "country": "US"
+  },
+  "phone": "310-555-0100",
+  "email": "jane.smith@ceteraadvisors.com",
+  "assetsUnderManagement": 42500000,
+  "clientCount": 183,
+  "registeredSince": "2003-06-15"
+}

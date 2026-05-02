@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "fibo": "https://spec.edmcouncil.org/fibo/ontology/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rcs": "https://schema.api-evangelist.com/rcs-capital/",
+
+    "FinancialAdvisor": {
+      "@id": "schema:FinancialService",
+      "@type": "@id"
+    },
+    "BrokerDealer": {
+      "@id": "rcs:BrokerDealer",
+      "@type": "@id"
+    },
+
+    "id": "@id",
+    "legalName": "schema:legalName",
+    "tradingName": "schema:name",
+    "firstName": "schema:givenName",
+    "lastName": "schema:familyName",
+    "email": "schema:email",
+    "phone": "schema:telephone",
+    "crdNumber": "rcs:crdNumber",
+    "firmCrdNumber": "rcs:firmCrdNumber",
+    "firmName": "rcs:firmName",
+    "secRegistrationNumber": "rcs:secRegistrationNumber",
+    "registrationStatus": "rcs:registrationStatus",
+    "registeredStates": {
+      "@id": "rcs:registeredState",
+      "@container": "@set"
+    },
+    "parentCompany": "schema:parentOrganization",
+    "advisorCount": "rcs:advisorCount",
+    "assetsUnderAdministration": {
+      "@id": "rcs:assetsUnderAdministration",
+      "@type": "xsd:decimal"
+    },
+    "assetsUnderManagement": {
+      "@id": "rcs:assetsUnderManagement",
+      "@type": "xsd:decimal"
+    },
+    "clientCount": "rcs:clientCount",
+    "licenses": {
+      "@id": "rcs:license",
+      "@container": "@set"
+    },
+    "designations": {
+      "@id": "rcs:designation",
+      "@container": "@set"
+    },
+    "businessTypes": {
+      "@id": "rcs:businessType",
+      "@container": "@set"
+    },
+    "officeAddress": "schema:address",
+    "headOffice": "schema:address",
+    "registeredSince": {
+      "@id": "rcs:registeredSince",
+      "@type": "xsd:date"
+    }
+  }
+}

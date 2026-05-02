@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/rcs-capital/refs/heads/main/json-schema/rcs-capital-financial-advisor-schema.json",
+  "title": "Financial Advisor",
+  "description": "Schema describing a financial advisor affiliated with an independent broker-dealer network, such as the Cetera Financial Group (formerly assembled by RCS Capital).",
+  "type": "object",
+  "required": ["id", "firstName", "lastName", "crdNumber"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the financial advisor record."
+    },
+    "firstName": {
+      "type": "string",
+      "description": "Advisor's first name."
+    },
+    "lastName": {
+      "type": "string",
+      "description": "Advisor's last name."
+    },
+    "crdNumber": {
+      "type": "string",
+      "description": "FINRA Central Registration Depository (CRD) number uniquely identifying the advisor."
+    },
+    "firmCrdNumber": {
+      "type": "string",
+      "description": "CRD number of the registered broker-dealer the advisor is affiliated with."
+    },
+    "firmName": {
+      "type": "string",
+      "description": "Name of the registered broker-dealer or RIA the advisor operates under."
+    },
+    "licenses": {
+      "type": "array",
+      "description": "List of FINRA Series licenses held by the advisor.",
+      "items": {
+        "type": "string",
+        "examples": ["Series 7", "Series 63", "Series 65", "Series 66"]
+      }
+    },
+    "designations": {
+      "type": "array",
+      "description": "Professional designations held (e.g., CFP, CFA, ChFC).",
+      "items": {
+        "type": "string"
+      }
+    },
+    "officeAddress": {
+      "type": "object",
+      "description": "Primary office address.",
+      "properties": {
+        "street": { "type": "string" },
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "postalCode": { "type": "string" },
+        "country": { "type": "string", "default": "US" }
+      }
+    },
+    "phone": {
+      "type": "string",
+      "description": "Primary contact phone number."
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "Primary contact email address."
+    },
+    "assetsUnderManagement": {
+      "type": "number",
+      "description": "Total assets under management or advisement in USD."
+    },
+    "clientCount": {
+      "type": "integer",
+      "description": "Approximate number of clients served."
+    },
+    "registeredSince": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the advisor first registered with FINRA."
+    }
+  }
+}
