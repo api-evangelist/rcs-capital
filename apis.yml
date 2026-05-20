@@ -30,6 +30,8 @@ modified: '2026-05-02'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/rcs-capital-inc
   - type: Website
     name: RCS Capital SEC Filing Reference
     description: SEC EDGAR filing for RCS Capital Corporation.
