@@ -62,7 +62,7 @@ common:
     name: RCS Capital JSON-LD Context
     description: JSON-LD context mapping financial services concepts to schema.org and FIBO ontology.
     url: https://raw.githubusercontent.com/api-evangelist/rcs-capital/refs/heads/main/json-ld/rcs-capital-context.jsonld
-  - type: Example
+  - type: Examples
     name: Financial Advisor Example
     description: Example financial advisor record representing the type of data managed within broker-dealer networks.
     url: https://raw.githubusercontent.com/api-evangelist/rcs-capital/refs/heads/main/examples/rcs-capital-financial-advisor-example.json
