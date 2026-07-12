@@ -30,6 +30,8 @@ modified: '2026-05-02'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/rcs-capital-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/rcs-capital-inc
   - type: Website
