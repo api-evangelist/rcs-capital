@@ -13,9 +13,20 @@ description: >-
   emerged in May 2016 as Aretec Group, Inc., the holding company of Cetera
   Financial Group. No public developer APIs were offered under the RCS Capital brand.
 type: Index
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 position: Consuming
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rcs-capital.png
 url: https://raw.githubusercontent.com/api-evangelist/rcs-capital/refs/heads/main/apis.yml
 tags:
   - Broker-Dealer
