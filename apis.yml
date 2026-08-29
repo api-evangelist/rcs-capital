@@ -13,6 +13,17 @@ description: >-
   emerged in May 2016 as Aretec Group, Inc., the holding company of Cetera
   Financial Group. No public developer APIs were offered under the RCS Capital brand.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
