@@ -1,7 +1,9 @@
 ---
 title: RCS Capital Corporation Completes Acquisition of Cetera ...
 url: https://www.prnewswire.com/news-releases/rcs-capital-corporation-completes-acquisition-of-cetera-financial-group-257218501.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"RCS Capital" press release artificial intelligence'
 position: 1
 source: serpapi-google

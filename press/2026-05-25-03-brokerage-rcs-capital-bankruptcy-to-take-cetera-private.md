@@ -1,7 +1,9 @@
 ---
 title: Brokerage RCS Capital bankruptcy to take Cetera private
 url: https://www.reuters.com/article/breakingviews/brokerage-rcs-capital-bankruptcy-to-take-cetera-private-idUSKCN0VA3EZ/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"RCS Capital" press release artificial intelligence'
 position: 3
 source: serpapi-google

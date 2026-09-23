@@ -1,7 +1,9 @@
 ---
 title: 'Rcs: capital increase from 27 June to 5 July - FIRSTonline'
 url: https://www.firstonline.info/en/rcs-capital-increase-from-27-June-to-5-July/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"RCS Capital" press release artificial intelligence'
 position: 5
 source: serpapi-google

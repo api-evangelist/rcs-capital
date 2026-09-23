@@ -1,7 +1,9 @@
 ---
 title: C. Thomas McMillen
 url: https://www.nexstar.tv/c-thomas-mcmillen/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"RCS Capital" press release artificial intelligence'
 position: 4
 source: serpapi-google
