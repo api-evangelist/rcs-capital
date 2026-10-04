@@ -40,7 +40,7 @@ tags:
 - Broker-Dealer
 - Cetera Financial Group
 - Defunct
-- Financial-Services
+- Financial Services
 - Independent Advisor
 - Investment Banking
 - Wealth Management
@@ -52,6 +52,7 @@ tags_raw:
 - Independent Advisor
 - Investment Banking
 - Wealth Management
+- Financial-Services
 created: '2025-01-01'
 modified: '2026-09-15'
 specificationVersion: '0.23'
