@@ -1,4 +1,4 @@
-# RCS Capital (rcs-capital)
+# RCS Capital
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,65 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-RCS Capital Corporation (RCAP) was a publicly traded holding company focused on the financial services industry, founded by Nicholas Schorsch and taken public in June 2013. The firm assembled Cetera Financial Group to become the second largest network of independent broker-dealers in the United States, with approximately 9,100 financial advisors managing $220 billion in assets under administration for 2.5 million clients.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-RCS Capital filed for Chapter 11 bankruptcy protection in January 2016, citing $1.39 billion in debts, and emerged in May 2016 as Aretec Group, Inc., the holding company of Cetera Financial Group. No public developer APIs were offered under the RCS Capital brand.
+RCS Capital Corporation (RCAP) was a publicly traded holding company focused on the financial services industry, founded by Nicholas Schorsch and taken public in June 2013. The firm owned a diversified group of businesses including independent broker-dealers, investment banking, capital markets, and transaction management services. It assembled Cetera Financial Group to become the second largest network of independent broker-dealers in the United States, with approximately 9,100 financial advisors managing $220 billion in assets under administration for 2.5 million clients. RCS Capital filed for Chapter 11 bankruptcy protection in January 2016, citing $1.39 billion in debts, and emerged in May 2016 as Aretec Group, Inc., the holding company of Cetera Financial Group. No public developer APIs were offered under the RCS Capital brand.
 
-**URL:** [Visit APIs.json](https://raw.githubusercontent.com/api-evangelist/rcs-capital/refs/heads/main/apis.yml)
+**Areas:** Broker-Dealer · Cetera Financial Group · Defunct · Financial Services · Independent Advisor · Investment Banking · Wealth Management
 
-## Scope
+## RCS Capital on APIs.io (historical record)
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for RCS Capital is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rcs-capital/](https://apis.io/providers/rcs-capital/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### Published properties
 
-Broker-Dealer, Cetera Financial Group, Defunct, Financial Services, Independent Advisor, Investment Banking, Wealth Management
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## JSON Schemas
+#### JSON Schema (2)
 
-| Schema | Description |
-|--------|-------------|
-| [Financial Advisor Schema](json-schema/rcs-capital-financial-advisor-schema.json) | Schema for a financial advisor in a broker-dealer network |
-| [Broker-Dealer Entity Schema](json-schema/rcs-capital-broker-dealer-schema.json) | Schema for a registered broker-dealer entity |
+The data models the API reads and writes.
 
-## JSON Structures
+- [Broker-Dealer Entity](https://apis.io/schemas/rcs-capital/rcs-capital-broker-dealer/)
+- [Financial Advisor](https://apis.io/schemas/rcs-capital/rcs-capital-financial-advisor/)
 
-| Structure | Description |
-|-----------|-------------|
-| [Financial Advisor Structure](json-structure/rcs-capital-financial-advisor-structure.json) | Field-level documentation for the financial advisor object |
+#### JSON Structure (1)
 
-## JSON-LD Context
+Data models expressed in JSON Structure.
 
-| Context | Description |
-|---------|-------------|
-| [RCS Capital Context](json-ld/rcs-capital-context.jsonld) | JSON-LD context mapping financial services concepts to schema.org and FIBO |
+- [Rcs Capital Financial Advisor Structure](https://apis.io/json-structure/rcs-capital/rcs-capital-financial-advisor-structure/)
 
-## Examples
+#### JSON-LD (1)
 
-| Example | Description |
-|---------|-------------|
-| [Financial Advisor Example](examples/rcs-capital-financial-advisor-example.json) | Example financial advisor record from a broker-dealer network |
+Linked-data contexts for the provider's vocabulary.
 
-## Vocabulary
+- [Rcs Capital Context](https://apis.io/jsonld/rcs-capital/rcs-capital-context/)
 
-| Vocabulary | Description |
-|------------|-------------|
-| [RCS Capital Vocabulary](vocabulary/rcs-capital-vocabulary.yml) | Domain vocabulary for independent broker-dealer financial services |
+#### Vocabulary (1)
 
-## References
+The provider's domain terms, defined.
 
-- [Cetera Financial Group](https://www.cetera.com) — Successor entity
-- [SEC EDGAR Filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001568832&type=&dateb=&owner=include&count=40)
-- [Chapter 11 Case Information](https://cases.ra.kroll.com/rcscapital/)
+- [RCS Capital Vocabulary](https://apis.io/vocabularies/rcs-capital/rcs-capital-vocabulary/)
 
-## Timestamps
+#### Examples (1)
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-05-02
+Example requests and responses.
 
-## Maintainers
+- [Rcs Capital Financial Advisor Example](https://apis.io/examples/rcs-capital/rcs-capital-financial-advisor-example/)
 
-**FN:** Kin Lane  
-**Email:** kin@apievangelist.com
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [RCS Capital — jsonschema rules](https://apis.io/rules/rcs-capital/rcs-capital-jsonschema-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rcs Capital Domain Security](https://apis.io/security/rcs-capital/rcs-capital-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001568832&type=&dateb=&owner=include&count=40)
+- [Documentation](https://cases.ra.kroll.com/rcscapital/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for RCS Capital: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rcs-capital/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
